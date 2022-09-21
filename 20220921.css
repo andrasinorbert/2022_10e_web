@@ -1,0 +1,31 @@
+#fejlec{
+    background-color: red;
+}
+
+#tablazatcime{
+    background-color: aqua;
+}
+
+.pirosbetu{
+    color: red;
+}
+
+table{
+    width: 80%;
+}
+
+.bg-blueviolet{
+    background-color: blueviolet;
+}
+
+td:nth-child(2n){
+    color:red;
+}
+
+td:first-child{
+    color:blue;
+}
+
+td:last-child{
+    color:brown;
+}
