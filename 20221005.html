@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*#tablazat{*/
+        table{
+            width:100%;
+            border: 1px solid black;
+        }
+        /*
+        td{
+            border: none;
+        }
+        */
+        b{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        table#tablazat>
+            caption{Ez a táblázat címe}
+            +(thead>tr>th{fejléc$}*3)
+            +(tbody>(tr>(td{adat$})*3)*10)
+    -->
+    <table id="tablazat">
+        <caption>Ez a táblázat címe</caption>
+        <thead>
+            <tr>
+                <th>fejléc1</th>
+                <th>fejléc2</th>
+                <th>fejléc3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+            <tr>
+                <td>adat1</td>
+                <td>adat2</td>
+                <td>adat3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>A szerző ebben a témában írt publikációja megjelent az
+        <abbr title="Fertődi Növénynemesítési és Növénytermesztési
+        Kutató Intézet Közleményei">FNNKIK</abbr>-ban.</p>
+
+    <pre>kjfhkewhfkéhwéf 
+        lhfwhewhfej
+lwéshfljwlej        lehvgl rejrgáol
+    </pre>
+
+    <p>A &lt;p&gt; tag-et akkor használhatjuk, ha bekezdést akarunk létrehozni.</p>
+
+    <p>Ez egy <b><i>félkövér, dőlt szöveg,</b></i> ami itt már normál stílusú 
+        szöveg, <i>itt pedig dőlt.</i></p>
+
+
+    <p><strong>János</strong> elvitte <b>Balázst</b> sétálni</p>
+    <p style="letter-spacing: -0.1em;">A negyedik bekezdés másfélszeres betűközzel.</p>
+
+    <p>A legjobb filmek listája (IMDB) <br>5–10. helyezett</p>
+    <ol start="5" type="I">
+        <li>A jó, a rossz és a csúf (1966)</li>
+        <li>A sötét lovag (2008)</li>
+        <li>Tizenkét dühös ember (1957)</li>
+        <li>Schindler listája (1993)</li>   
+        <li>A Gyűrűk Ura: A király visszatér (2003)</li>   
+        <li>Harcosok klubja (1999)</li>   
+    </ol>
+
+    <!-- ol[start="5" type="I"]>li*5 -->
+
+    <ol>
+        <li>A remény rabjai (1994)
+          <ul>
+               <li>Rendező: Frank Darabont</li>
+               <li>Tim Robbins</li>
+               <li>Morgan Freeman</li>
+               <li>Bob Gunton</li>
+          </ul>
+        </li>
+        <li>A keresztapa (1972)<ul>
+               <li>Rendező:Francis Ford Coppola</li>
+               <li>Marlon Brando</li>
+               <li>Al Pacino</li>
+               <li>James Caan</li>
+          </ul></li>
+        <li>A keresztapa 2. (1974)<ul>
+               <li>Rendező:Francis Ford Coppola</li>
+               <li>Al Pacino</li>
+               <li>Robert Duvall</li>
+               <li>Diane Keaton </li>
+          </ul></li>
+     </ol>
+</body>
+</html>
