@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tablazatom{
+            background-color: yellow;
+        }
+        #tablazatcim{
+            color: blue;
+        }
+        #tablazatom>tbody>tr>td>ul>li:nth-child(2){
+            font-weight: bold;
+            color:green;
+        }
+        #tablazatom li:nth-child(2){
+            font-weight: bold;
+            color:purple;
+        }
+        .piros_betu{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+    <!--
+        table#tablazatom>caption{Szivatás}#tablazatcim+(thead>tr>th{UL}+th{OL}+th{Cimsor})+(tbody>tr*2>(td>ul>li{Adat$}*4)+(td.piros_betu>ol>li{Adat$}*4)+(td>ol>li{cimsor$}*2>ul>li{h$}))
+    -->
+    <table id="tablazatom">
+        <caption id="tablazatcim">Szivatás</caption>
+        <thead>
+            <tr>
+                <th>UL</th>
+                <th>OL</th>
+                <th>Cimsor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Adat1</li>
+                        <li>Adat2</li>
+                        <li>Adat3</li>
+                        <li>Adat4</li>
+                    </ul>
+                </td>
+                <td class="piros_betu">
+                    <ol>
+                        <li>Adat1</li>
+                        <li>Adat2</li>
+                        <li>Adat3</li>
+                        <li>Adat4</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>cimsor1
+                            <ul>
+                                <li>h1</li>
+                            </ul>
+                        </li>
+                        <li>cimsor2
+                            <ul>
+                                <li>h2</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Adat1</li>
+                        <li>Adat2</li>
+                        <li>Adat3</li>
+                        <li>Adat4</li>
+                    </ul>
+                </td>
+                <td class="piros_betu">
+                    <ol>
+                        <li>Adat1</li>
+                        <li>Adat2</li>
+                        <li>Adat3</li>
+                        <li>Adat4</li>
+                    </ol>
+                </td>
+                <td style="padding-left:5px;">
+                    <ol>
+                        <li>cimsor1
+                            <ul>
+                                <li>h1</li>
+                            </ul>
+                        </li>
+                        <li>cimsor2
+                            <ul>
+                                <li>h2</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
