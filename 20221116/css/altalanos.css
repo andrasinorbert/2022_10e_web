@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgreen;
+}
+
+nav{
+    background-color: lightcoral;
+}
+
+section{
+    background-color: lightblue;
+}
+
+footer {
+    background-color: yellow;
+}
+
+.alairas {
+    float: right;
+}
