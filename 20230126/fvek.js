@@ -2,8 +2,6 @@ function $(id){
     return document.getElementById(id);
 }
 
-
-
 function caption_create(cap){
     let start_tag= "<caption>";
     let end_tag= "</caption>";
