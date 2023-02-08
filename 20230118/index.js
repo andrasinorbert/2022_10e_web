@@ -23,6 +23,6 @@ function $(id){
 $("eztkeresem").innerHTML+="!";
 
 
-function click(){
+function my_click(){
     $("output").innerHTML=$("input").value;
 }
